@@ -1,0 +1,36 @@
+{
+  "name": "get-sitemap-files",
+  "version": "1.0.0",
+  "description": "Get all files listed in a sitemap with Node",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zizther/get-sitemap-files"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "gulpplugin",
+    "sitemap",
+    "xml",
+    "files"
+  ],
+  "author": "Nathan Reed <info@vimia.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zizther/get-sitemap-files/issues"
+  },
+  "homepage": "https://github.com/zizther/get-sitemap-files",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "fs-extra": "^6.0.1",
+    "url-parse": "^1.4.1",
+    "request": "^2.87.0",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "chai": "^4.1.2"
+  }
+}
