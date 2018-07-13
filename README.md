@@ -1,5 +1,4 @@
 # get-sitemap-files
-==========
 
 A [Gulp](https://github.com/gulpjs/gulp) plugin to get files listed in a sitemap.
 
@@ -10,7 +9,7 @@ npm install gulp-sitemap-files
 
 ## Usage
 ```js
-sitemapFiles('http://www.example.com/sitemap.xml')
+sitemapFiles('http://www.example.com/sitemap.xml');
 ```
 
 ```js
@@ -23,8 +22,6 @@ gulp.task('default', function() {
 ```
 
 ## Arguments
-
-`sitemapFiles(sitemapUrl)`
 
 - `sitemapUrl` - string - The URL of the sitemap to read from
 - `options` - object - The URL of the sitemap to read from
